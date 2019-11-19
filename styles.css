@@ -1,0 +1,30 @@
+html{
+  width:100%;
+}
+table{
+  width:100%;
+}
+table,th,td {
+	border: 1px solid black;
+	border-collapse:collapse;
+    text-align:center;}
+th,td{
+	padding:10px;
+	}
+thead{
+  Background-color:wheat;
+}
+tbody tr:nth-child(even){
+  Background-color:lightgray;
+}
+tfoot{
+  Background-color:yellow;
+}
+#red{
+  color:red;
+}
+caption{
+  color:red;
+  font-size:45px;
+  margin-bottom:15px;
+}
